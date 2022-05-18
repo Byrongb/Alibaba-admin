@@ -7,6 +7,10 @@
 html {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/575/721/non_2x/abstract-geometric-gray-and-white-background-vector-illustration-eps10.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    
 }
 
 /* Activador de elementos*/

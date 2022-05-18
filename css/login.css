@@ -1,26 +1,30 @@
 .section-login{
     /* aparence */
     max-width:100rem;
-    height: 55rem;
+    height: 25rem;
     border-radius: 0.3rem;
 
     /* element position */
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 30rem;
 
     /* items position */
     display: none;
 }
 .section-login_banner {
     /* aparence */
-    max-width: 50rem;
-    height: 100%;
+    max-width: 40rem;
+    height: 90%;
 }
 .section-login_banner img {
     /* aparence */
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 200%;
     object-fit: cover;
+    margin-left: -100px;
+    margin-top: -2rem;
+
+    
 }
 
 /* FORMULARIO */
@@ -58,20 +62,19 @@
 .form-login input {
     /* aparence */
     width: 30rem;
-    height: 3rem;
     outline: none;
     border: 1px solid rgb(87, 87, 87);
     border-radius: 0.3rem;
 
     /* items position */
-    padding: 0 1rem;
+    padding: 1rem;
 }
 .boton{
     /* aparence */
     width: 10rem;
     height: 3rem;
     border-radius: 3px;
-    background-color: rgb(240, 128, 24);
+    background-color: rgb(59, 39, 21);
     color: #fff;
     border: none;
     outline: none;
@@ -80,7 +83,7 @@
     cursor: pointer;
 
     /*element position */
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     /* items position */
     display: flex;
