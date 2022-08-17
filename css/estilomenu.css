@@ -7,6 +7,7 @@ body {
 img {
     display: block;
     width: 100%;
+
 }
 .main-header__title{
     text-align: center;
@@ -15,7 +16,39 @@ img {
     color: black;
 }
 .main-nav {
-    display: none;
+  
+   
+}
+.menu{
+    position:absolute;
+    top:200;
+    left:0;
+    background:#212121;
+    width:100%;
+    list-style:none;
+    padding:20px;
+    margin:0;
+    z-index:999;
+    opacity:0;
+    visibility:hidden; 
+    transition:all 0.5s;
+ }
+.menu__item{
+    padding:20px;
+    text-align:center;
+    width:150px;
+    margin:auto;
+ }
+
+.menu__link{
+    color:white;
+    text-decoration:none;
+    position:relative;
+    display:block;
+}
+.mostrar{
+  opacity:1;
+  visibility:visible;
 }
 .main-header{
     padding: 0 20px;
@@ -25,7 +58,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .icon-menu{
     font-size: 1.5em;
@@ -41,12 +73,12 @@ img {
     border: 1px solid black;
     text-decoration: none;
     position: absolute;
-
 }
 .main-header__input{
     display: block;
     padding: 10px;
-    margin-left: 50%;
+    margin-left: 70%;
+    width: 50%;
 }
 .container-slider{
     margin: 50px 0;
@@ -90,4 +122,15 @@ img {
 }
 .slider__btn--right{
   right:10px;
+}
+
+/*Estilos para tablet*/
+@media screen and (min-width:768px){
+    .slider{
+        height: 400px;
+    }
+}
+/*Estilos para tablet*/
+@media screen and (min-width:1024px){
+
 }
