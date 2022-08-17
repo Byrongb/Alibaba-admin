@@ -15,37 +15,42 @@ img {
     margin: 10px 0;
     color: black;
 }
-.main-nav {
-  
-   
+.main-nav{
+    opacity:0;
+    visibility:hidden; 
+    transition: all 0.5s;
+    z-index:999999;
+    
 }
+
 .menu{
     position:absolute;
-    top:200;
+    top:200px;
     left:0;
     background:#212121;
     width:100%;
     list-style:none;
-    padding:20px;
+    padding:0px;
     margin:0;
-    z-index:999;
-    opacity:0;
-    visibility:hidden; 
-    transition:all 0.5s;
+  
  }
 .menu__item{
-    padding:20px;
     text-align:center;
-    width:150px;
     margin:auto;
  }
 
 .menu__link{
+    padding:20px;
     color:white;
     text-decoration:none;
     position:relative;
     display:block;
 }
+.menu__link:hover {
+    background: white;
+    color: #212121;
+}
+
 .mostrar{
   opacity:1;
   visibility:visible;
@@ -65,6 +70,7 @@ img {
     display: block;
     padding: 10px 15px;
     cursor: pointer;
+    margin-left: auto;
 }
 .main-header__btn{
     display: block;
@@ -130,7 +136,54 @@ img {
         height: 400px;
     }
 }
-/*Estilos para tablet*/
+/*Estilos para web*/
 @media screen and (min-width:1024px){
-
-}
+    .icon-menu{
+        display: none;
+    }
+    .main-header__input{
+        margin-left: 2%;
+        width: 20%;
+    }
+    .main-header .container--flex{
+        display: flex;
+        align-items: center;
+    }
+    .main-header__container{
+        flex-wrap: wrap;
+        align-content: flex-start;
+        
+    }
+    .main-header__container:nth-child(1){
+        width: 100%;
+        margin-left: 15%;
+    }
+    .main-header__title{
+        width: 100%;
+        font-size: 4em;
+        margin: 0;
+        border-bottom: 1px solid black;
+        
+    }
+    .main-nav{
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu {
+        position: static;
+        width: 100%;
+        display: flex;
+        background: none;
+        
+    }
+    .menu__link{
+        color: #333;
+    }
+    .menu__link:hover{
+        background: #333;
+        color: white;
+    }
+    
+   }
