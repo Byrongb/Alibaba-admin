@@ -13,7 +13,7 @@ html {
     
 }
 
-/* Activador de elementos*/
+/* Activador */
 .activar-block {
     display: block;
 }
@@ -25,10 +25,3 @@ html {
     display: none;
 }
 
-/*
-    DOCUMENTACIÓN
-
-    aparence: apariencia del elemento
-    element position: posición del elemento mismo
-    items position: posición de los elementos hijo
-*/

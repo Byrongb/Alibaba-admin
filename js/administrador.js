@@ -5,4 +5,5 @@ export function adminstrador(){
     alert('soy administrador');
     section_administrador.classList.add("activar-block");
     section_login.classList.remove("activar-flex");
+    window.location="menu.html"
 }
