@@ -17,6 +17,7 @@ export function login(username,password){
                 
             }else{
                 console.log('Constraseña incorrecta');
+                alert("Usuario/Contraseña no son correctos")
             }
         }else {
             console.log("Usuario incorrecto");
